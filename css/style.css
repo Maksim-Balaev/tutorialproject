@@ -1,8 +1,17 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
 .site-body {
 }
+
+/*---------HEADER------------*/
+
 .header {
     background: #FFFFFF;
 
@@ -65,6 +74,9 @@ background: #FFFFFF;
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+/*-----Section-----*/
+
 .section-btn {
     background: #2E2F42;
 }
@@ -93,6 +105,9 @@ background: #FFFFFF;
     background: #4D5AE5;
     
 }
+
+/*------skills-------*/
+
 .skills {
     
 }
@@ -122,6 +137,9 @@ background: #FFFFFF;
 }
 .design-list {
 }
+
+/*---------design-----------*/
+
 .design {
     font-family: 'Roboto';
     font-style: normal;
@@ -171,6 +189,8 @@ background: #FFFFFF;
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+/*--------------FOOTER--------------*/
 .footer {
     position: absolute;
     width: 1440px;
@@ -210,6 +230,8 @@ background: #FFFFFF;
     letter-spacing: 0.02em;
     color: #E7E9FC;
 }
+
+/*-----------------SECOND_PAGES-----------------*/
 .second-btn {
 }
 .second-btn-name {
@@ -224,11 +246,20 @@ background: #FFFFFF;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
-    display: flex;
 
-    background: #404BBF;
-    }
+    color: #4D5AE5;
+    display: flex;
+    background: #F4F4FD;
+}
+.second-button:hover {
+    background-color: #4D5AE5;
+    color: #F4F4FD;
+}
+.second-button:focus {
+    background-color: #4D5AE5;
+    color: #F4F4FD;
+}
+
 .images {
 }
 .images-list {
