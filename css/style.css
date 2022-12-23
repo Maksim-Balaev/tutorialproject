@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: white;
 }
 .list {
     list-style: none;
@@ -17,17 +18,15 @@ body{
 
 }
 .header-navigation {
-width: 1440px;
-
-
-background: #FFFFFF;
+    width: 1440px;
+    background: #FFFFFF;
 }
 .header-web {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
+    line-height: calc(24/18);
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
@@ -39,9 +38,7 @@ background: #FFFFFF;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
+    line-height: calc(24/18);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2E2F42;
@@ -49,7 +46,7 @@ background: #FFFFFF;
 .header-link {
     font-weight: 600;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
@@ -57,22 +54,24 @@ background: #FFFFFF;
 
 }
 .header-mail {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     letter-spacing: 0.02em;
     color: #434455;
 }
+.header-mail:hover,
+.header-mail:focus{
+    color: #4D5AE5;
+}
 .header-tel {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     letter-spacing: 0.02em;
     color: #434455;
+}
+.header-tel:hover,
+.header-tel:focus {
+    color: #4D5AE5;
 }
 
 /*-----Section-----*/
@@ -81,11 +80,9 @@ background: #FFFFFF;
     background: #2E2F42;
 }
 .section-under-btn {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 56px;
-    line-height: 60px;
+    line-height: calc(60/56);
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
@@ -93,7 +90,7 @@ background: #FFFFFF;
 .button {
     font-weight: 600;
     font-size: 16px;
-    line-height: 19px;
+    line-height: calc(19/16);
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
@@ -103,7 +100,7 @@ background: #FFFFFF;
     padding: 16px 32px;
     gap: 10px;
     background: #4D5AE5;
-    
+    cursor: pointer;
 }
 
 /*------skills-------*/
@@ -111,6 +108,19 @@ background: #FFFFFF;
 .skills {
     
 }
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
 .skills-name {
 }
 .skills-list {
@@ -118,20 +128,15 @@ background: #FFFFFF;
 .skils-item {
 }
 .skills-title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: calc(24/20);
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
 .skills-after-title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -141,11 +146,9 @@ background: #FFFFFF;
 /*---------design-----------*/
 
 .design {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 36px;
-    line-height: 40px;
+    line-height: calc(40/36);
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -155,11 +158,9 @@ background: #FFFFFF;
     background: #F4F4FD;
 }
 .hero-team {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 36px;
-    line-height: 40px;
+    line-height: calc(40/36);
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -169,22 +170,22 @@ background: #FFFFFF;
 }
 .hero-item {
 }
+
+.hero-images {
+
+}
+
 .hero-name {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: calc(24/20);
     text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
 .hero-skills {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     text-align: center;
     letter-spacing: 0.02em;
     color: #434455;
@@ -202,7 +203,7 @@ background: #FFFFFF;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: calc(21/18);
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
@@ -214,19 +215,20 @@ background: #FFFFFF;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: calc(21/18);
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #F4F4FD;
 }
+.footer-logo:hover,
+.footer-logo:focus {
+
+}
 .footer-text {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     letter-spacing: 0.02em;
     color: #E7E9FC;
 }
@@ -241,12 +243,12 @@ background: #FFFFFF;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-
+    cursor: pointer;
     color: #4D5AE5;
     display: flex;
     background: #F4F4FD;
@@ -273,7 +275,7 @@ background: #FFFFFF;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: calc(24/20);
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
@@ -282,7 +284,7 @@ background: #FFFFFF;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: calc(24/16);
     letter-spacing: 0.02em;
     color: #434455;
 }
