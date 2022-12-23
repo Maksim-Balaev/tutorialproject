@@ -236,8 +236,14 @@ body{
 .images {
 }
 .images-list {
+ 
 }
 .images-item {
+    
+}
+
+.images-link {
+    text-decoration: none; 
 }
 .images-title {
     font-weight: 700;
@@ -245,6 +251,7 @@ body{
     line-height: calc(24/20);
     letter-spacing: 0.02em;
     color: #2E2F42;
+   
 }
 .images-after-title {
     font-family: 'Roboto';
@@ -254,6 +261,7 @@ body{
     line-height: calc(24/16);
     letter-spacing: 0.02em;
     color: #434455;
+   
 }
 
  .list {
