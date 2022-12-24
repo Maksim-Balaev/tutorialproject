@@ -42,12 +42,14 @@ body{
     text-transform: uppercase;
     color: var(--text-head);
 }
-.header-link:hover,
-.header-link:focus {
+.header-link {
     font-weight: 500;
     font-size: 16px;
     line-height: calc(24/16);
     letter-spacing: 0.02em;
+}
+.header-link:hover,
+.header-link:focus {
     color: var(--text-head);
 }
 .header-contacts {
@@ -89,7 +91,7 @@ body{
     color: var(--button-color);
 }
 .button {
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: calc(19/16);
@@ -152,7 +154,7 @@ body{
     color: var(--text-head);
 }
 .hero {
-    
+    background-color: var(--logo-second-color);
 }
 .hero-team {
     font-weight: 700;
@@ -162,6 +164,7 @@ body{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--text-head);
+   
 }
 .hero-list {
     
@@ -224,9 +227,9 @@ body{
 .second-btn-name {
 }
 .second-button {
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: calc(24/16);
     letter-spacing: 0.04em;
@@ -262,9 +265,6 @@ body{
    
 }
 .images-after-title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(24/16);
     letter-spacing: 0.02em;
