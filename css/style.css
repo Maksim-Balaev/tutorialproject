@@ -65,7 +65,7 @@ body{
     
 }
 .header-mail:hover,
-.header-mail:focus{
+.header-mail:focus {
     color: var(--link-color);
 }
 .header-tel {
