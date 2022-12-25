@@ -1,3 +1,10 @@
+p,h1,h2,h3,h4,h5 {
+    margin: 0;
+}
+ul,ol {
+    margin: 0;
+    padding-left: 0;
+}
 body{
     font-family: 'Roboto', sans-serif;
     background-color: var(--button-color);
@@ -10,6 +17,12 @@ body{
     --button-color: #FFFFFF;
     --footer-color: #E7E9FC;
     --link-color: #404BBF;
+}
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 .list {
     list-style: none;
@@ -24,6 +37,8 @@ body{
 
 .header {
     background: var(--button-color);
+    padding-top: 24px;
+    padding-bottom: 24px;
 
 }
 .header-navigation {
