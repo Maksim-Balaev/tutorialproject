@@ -40,7 +40,7 @@ body{
     background: var(--button-color);
     padding-top: 24px;
     padding-bottom: 24px;
-    width: 1440px;
+    
     border: 1px solid #E7E9FC;
     justify-content: center;
 }
@@ -248,6 +248,7 @@ body{
     color: var(--text-head);
     padding-top: 120px;
     padding-bottom: 72px;
+    width: 1440px;
     
 
    
@@ -301,7 +302,8 @@ body{
 .footer {
     background: var(--text-head);
     height: 310px;
-    padding: 0;
+
+
 }
 
 .footer > .footer-container {
