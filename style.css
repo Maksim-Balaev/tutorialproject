@@ -390,7 +390,9 @@ body{
     background: #FFFFFF;
     padding-bottom: 120px;
     flex-wrap: wrap;
-    gap: 24px;
+    gap-row: 24px;
+    column-gap: 24px;
+    row-gap: 48px;
 
 }
 .images-item {
@@ -401,6 +403,14 @@ body{
 }
 .images-link {
     text-decoration: none; 
+}
+
+.image-text-box {
+    border-left: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
+    
+
 }
 .images-title {
     font-weight: 700;
