@@ -22,7 +22,7 @@ body{
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: auto;
+    margin: 0 auto;
 }
 .list {
     list-style: none;
@@ -67,11 +67,8 @@ body{
 }
 .header-list {
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
     display: flex;   
-    margin-left: auto;
-    margin-right: 332px;
+
 }
 .header-link {
     font-weight: 500;
@@ -79,7 +76,10 @@ body{
     line-height: calc(24/16);
     letter-spacing: 0.02em;
     color: var(--text-head);
-    margin-right: auto;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    
 }
 .header-link:hover,
 .header-link:focus {
@@ -88,8 +88,6 @@ body{
 .header-contacts {
     display: flex;
     margin-left: auto;
-    padding-top: 24px;
-    padding-bottom: 24px;
     gap: 40px;
     
 }
@@ -98,6 +96,9 @@ body{
     line-height: calc(24/16);
     letter-spacing: 0.02em;
     color: var(--text-color);
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .header-mail:hover,
 .header-mail:focus {
@@ -108,7 +109,9 @@ body{
     line-height: calc(24/16);
     letter-spacing: 0.02em;
     color: var(--text-color);
-   
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .header-tel:hover,
 .header-tel:focus {
@@ -119,11 +122,12 @@ body{
 
 .section-btn {
     background: var(--text-head);
-    height: 600px;
+    text-align: center;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .button-section {
-    padding-top: 192px;
     
 }
 .section-under-btn {
@@ -152,21 +156,16 @@ body{
     border-radius: 4px;
     cursor: pointer;
     margin-top: 40px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     border: 0;
 }
 
 /*------skills-------*/
 
 .skills {
+    justify-content: center;
     padding-top: 120px;
     padding-bottom: 120px;
-    justify-content: center;
-
-
-
+    
 }
 .visually-hidden {
     position: absolute;
@@ -185,10 +184,7 @@ body{
 }
 .skills-list {
     display: flex;
-    width: 1128px;
-    height: 104px;
     gap: 24px;
-
 }
 .skils-item {
 
@@ -208,21 +204,15 @@ body{
     color: var(--text-color);
     width: 264px;
 }
+
+/*---------design-----------*/
 .design-list {
     justify-content: center;
     text-align: center;
-    height: 412px;
-    padding-bottom: 72px;
-
+    padding-bottom: 120px;
 }
 
-/*---------design-----------*/
-
 .design-portfolio {
-    padding-top: 120px;
-    padding-bottom: 120px;
-    padding-left: 156px;
-    padding-right: 156px;
 
 }
 .design {
@@ -233,13 +223,13 @@ body{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--text-head);
-    padding-bottom: 72px;
+    margin-bottom: 72px;
+
 }
 .hero {
     background-color: var(--logo-second-color);
-    height: 732px;
-
-
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .hero-team {
     font-weight: 700;
@@ -249,7 +239,6 @@ body{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--text-head);
-    padding-top: 120px;
     margin-bottom: 72px;   
 }
 .hero-list {
@@ -273,8 +262,6 @@ body{
 .hero-image-skills {
     display: flex;
     gap: 24px;   
-    width: 1128px;
-
 }
 
 .hero-name {
@@ -297,15 +284,13 @@ body{
 /*--------------FOOTER--------------*/
 .footer {
     background: var(--text-head);
-    height: 310px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-container {
     width: 264px;
     height: 110px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    
 
 }
 .web {
@@ -330,16 +315,21 @@ body{
     line-height: calc(24/16);
     letter-spacing: 0.02em;
     color: var(--footer-color);
+    padding-top: 16px;
 
 }
 
 /*-----------------SECOND_PAGES-----------------*/
+.portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
 .second-btn {
     display: flex;
     justify-content: center;
-    margin-top: 96px;
     margin-bottom: 72px;
-
+    gap: 24px;
 }
 .second-btn-name {
 }
@@ -355,27 +345,37 @@ body{
     color: var(--logo-color);
     background: var(--logo-second-color);
     border: 1px solid #E7E9FC;
-    margin-right: 24px;
+    
 }
 .All {
-    width: 69px;
-    height: 48px;
+   padding-top: 12px;
+   padding-bottom: 12px;
+   padding-left: 24px;
+   padding-right: 24px;
 }
 .Web-Site {
-    width: 116px;
-    height: 48px;
+   padding-top: 12px;
+   padding-bottom: 12px;
+   padding-left: 24px;
+   padding-right: 24px;
 }
 .App {
-    width: 78px;
-    height: 48px;
+   padding-top: 12px;
+   padding-bottom: 12px;
+   padding-left: 24px;
+   padding-right: 24px;
 }
 .Design {
-    width: 101px;
-    height: 48px;
+   padding-top: 12px;
+   padding-bottom: 12px;
+   padding-left: 24px;
+   padding-right: 24px;
 }
 .Marketing {
-    width: 126px;
-    height: 48px;
+   padding-top: 12px;
+   padding-bottom: 12px;
+   padding-left: 24px;
+   padding-right: 24px;
 }
 .second-button:focus,
 .second-button:hover {
@@ -388,7 +388,6 @@ body{
 .images-list {
     display: flex;
     background: #FFFFFF;
-    padding-bottom: 120px;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
@@ -408,7 +407,9 @@ body{
     border-left: 1px solid #E7E9FC;
     border-right: 1px solid #E7E9FC;
     border-bottom: 1px solid #E7E9FC;
-    
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
 
 }
 .images-title {
@@ -417,20 +418,13 @@ body{
     line-height: calc(24/20);
     letter-spacing: 0.02em;
     color: var(--text-head);
-    padding-top: 32px;
-    padding-bottom: 8px;
-    padding-left: 16px;
-   
+    margin-bottom: 8px; 
 }
 .images-after-title {
     font-size: 16px;
     line-height: calc(24/16);
     letter-spacing: 0.02em;
-    color: var(--text-color);
-    padding-top: 8px;
-    padding-left: 16px;
-    padding-bottom: 32px;
-   
+    color: var(--text-color);   
 }
 
  .list {
