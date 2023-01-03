@@ -385,6 +385,12 @@ body{
 
 .images {
 }
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 .images-list {
     display: flex;
     background: #FFFFFF;
