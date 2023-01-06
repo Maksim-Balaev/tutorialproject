@@ -121,10 +121,14 @@ body{
 /*-----Section-----*/
 
 .section-btn {
-    background: var(--text-head);
+    background: var(--button-color);
     text-align: center;
     padding-top: 188px;
     padding-bottom: 188px;
+    background-image: url(./images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 .button-section {
