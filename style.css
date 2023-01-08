@@ -168,7 +168,6 @@ body{
 /*------skills-------*/
 
 .skills {
-    justify-content: center;
     padding-top: 120px;
     padding-bottom: 120px;
     
@@ -188,6 +187,27 @@ body{
 
 .skills-name {
 }
+
+.under-skills-icon {
+    display: flex;
+    align-items: center;
+    gap: 24px; 
+}
+.under-skills-item {
+    
+}
+
+.skills-icon-link {
+    justify-content: center;    
+}
+.skills-icon {
+    padding: 24px 100px;
+    width: 264px;
+    height: 112px;
+    background: #F4F4FD;
+    border-radius: 4px;
+}
+
 .skills-list {
     display: flex;
     gap: 24px;
@@ -195,28 +215,6 @@ body{
 .skils-item {
 
 }
-.skils-item::before {
-    display: block;
-    content:"";
-    height: 112px;
-    background-color: #F4F4FD;
-    border-radius: 4px;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-bottom: 8px;
-}
-.skils-item:nth-child(1)::before {
-    background-image: url(./images/antenna1.svg);
-}
-.skils-item:nth-child(2)::before {
-    background-image: url(./images/clock1.svg);
-}
-.skils-item:nth-child(3)::before {
-    background-image: url(./images/diagram1.svg);
-}
-.skils-item:nth-child(4)::before {
-    background-image: url(./images/astronaut1.svg)
-} 
 
 .skills-title {
     font-weight: 700;
@@ -346,13 +344,14 @@ body{
     background: #404BBF;
     border-radius: 4px;
     outline: 1px solid #404BBF;
-    
+    fill: #E7E9FC;
 }
 
 .custom-icon {
    padding: 16px 32px;
    width: 168px;
    height: 88px;
+   fill: #8E8F99;
    
 }
 /*--------------FOOTER--------------*/
